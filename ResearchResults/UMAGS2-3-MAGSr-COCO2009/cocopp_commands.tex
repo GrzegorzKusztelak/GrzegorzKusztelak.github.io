@@ -1,0 +1,200 @@
+\providecommand{\bbobecdfcaptionsinglefunctionssingledim}[1]{
+Empirical cumulative distribution of simulated (bootstrapped)
+             runtimes, measured in number of $f$-evaluations,
+             divided by dimension (FEvals/DIM) for the $51$ 
+             targets $10^{[-8..2]}$ in dimension #1.
+}
+\providecommand{\cocoversion}{{\scriptsize\sffamily{}\color{Gray}Data produced with COCO v2.6.3}}
+\providecommand{\numofalgs}{35}
+\providecommand{\bbobECDFslegend}[1]{
+Bootstrapped empirical cumulative distribution of the number of $f$-evaluations divided by dimension (FEvals/DIM) for $51$ targets with target precision in $10^{[-8..2]}$ for all functions and subgroups in #1-D. As reference algorithm, the best algorithm from BBOB 2009 is shown as light thick line with diamond markers.
+}
+\providecommand{\bbobppfigslegend}[1]{
+Expected running time (\ERT\ in number of $f$-evaluations
+                    as $\log_{10}$ value), divided by dimension for target function value $10^{-8}$
+                    versus dimension. Slanted grid lines indicate quadratic scaling with the dimension. Different symbols correspond to different algorithms given in the legend of #1. Light symbols give the maximum number of evaluations from the longest trial divided by dimension. Black stars indicate a statistically better result compared to all other algorithms with $p<0.01$ and Bonferroni correction number of dimensions (six).  
+Legend: 
+{\color{CornflowerBlue}$\circ$}: \algorithmA
+, {\color{Orange}$\diamondsuit$}: \algorithmB
+, {\color{Green}$\star$}: \algorithmC
+, {\color{red}+}: \algorithmD
+, {\color{magenta}$\pentagon$}: \algorithmE
+, {\color{brown}$\triangledown$}: \algorithmF
+, {{}x}: \algorithmG
+, {{}$\triangle$}: \algorithmH
+, {{}$\Diamond$}: \algorithmI
+, {{}$\triangleleft$}: \algorithmJ
+, {{}$\triangleright$}: \algorithmK
+, {{}$\circ$}: \algorithmL
+, {{}$\diamondsuit$}: \algorithmM
+, {{}$\star$}: \algorithmN
+, {{}+}: \algorithmO
+, {{}$\pentagon$}: \algorithmP
+, {{}$\triangledown$}: \algorithmQ
+, {{}x}: \algorithmR
+, {{}$\triangle$}: \algorithmS
+, {{}$\Diamond$}: \algorithmT
+, {{}$\triangleleft$}: \algorithmU
+, {\color{CornflowerBlue}$\triangleright$}: \algorithmV
+, {\color{Orange}$\varhexagon$}: \algorithmW
+, {\color{Green}$\circ$}: \algorithmX
+, {\color{red}$\diamondsuit$}: \algorithmY
+, {\color{magenta}$\star$}: \algorithmZ
+, {\color{brown}+}: \algorithma
+, {{}$\pentagon$}: \algorithmb
+, {{}$\triangledown$}: \algorithmc
+, {{}x}: \algorithmd
+, {{}$\triangle$}: \algorithme
+, {{}$\Diamond$}: \algorithmf
+, {{}$\triangleleft$}: \algorithmg
+, {{}$\triangleright$}: \algorithmh
+, {{}$\varhexagon$}: \algorithmi
+}
+% define some COCO/dvipsnames colors because
+% ACM style does not allow to use them directly
+\definecolor{NavyBlue}{HTML}{000080}
+\definecolor{Magenta}{HTML}{FF00FF}
+\definecolor{Orange}{HTML}{FFA500}
+\definecolor{CornflowerBlue}{HTML}{6495ED}
+\definecolor{YellowGreen}{HTML}{9ACD32}
+\definecolor{Gray}{HTML}{BEBEBE}
+\definecolor{Yellow}{HTML}{FFFF00}
+\definecolor{GreenYellow}{HTML}{ADFF2F}
+\definecolor{ForestGreen}{HTML}{228B22}
+\definecolor{Lavender}{HTML}{FFC0CB}
+\definecolor{SkyBlue}{HTML}{87CEEB}
+\definecolor{NavyBlue}{HTML}{000080}
+\definecolor{Goldenrod}{HTML}{DDF700}
+\definecolor{VioletRed}{HTML}{D02090}
+\definecolor{CornflowerBlue}{HTML}{6495ED}
+\definecolor{LimeGreen}{HTML}{32CD32}
+
+\providecommand{\pptablesfooter}{
+\end{tabularx}
+}
+\providecommand{\pptablesheader}{
+\begin{tabularx}{1.0\textwidth}{@{}c@{}|*{7}{@{}r@{}X@{}}|@{}r@{}@{}l@{}}
+$\Delta f_\mathrm{opt}$ & \multicolumn{2}{@{\,}l@{\,}}{1e1} & \multicolumn{2}{@{\,}l@{\,}}{1e0} & \multicolumn{2}{@{\,}l@{\,}}{1e-1} & \multicolumn{2}{@{\,}l@{\,}}{1e-2} & \multicolumn{2}{@{\,}l@{\,}}{1e-3} & \multicolumn{2}{@{\,}l@{\,}}{1e-5} & \multicolumn{2}{@{\,}l@{\,}}{1e-7} & \multicolumn{2}{|@{}l@{}}{\#succ}\\\hline
+}
+\providecommand{\ntables}{7}
+\providecommand{\pptablesfooter}{
+\end{tabularx}
+}
+\providecommand{\pptablesheader}{
+\begin{tabularx}{1.0\textwidth}{@{}c@{}|*{7}{@{}r@{}X@{}}|@{}r@{}@{}l@{}}
+$\Delta f_\mathrm{opt}$ & \multicolumn{2}{@{\,}l@{\,}}{1e1} & \multicolumn{2}{@{\,}l@{\,}}{1e0} & \multicolumn{2}{@{\,}l@{\,}}{1e-1} & \multicolumn{2}{@{\,}l@{\,}}{1e-2} & \multicolumn{2}{@{\,}l@{\,}}{1e-3} & \multicolumn{2}{@{\,}l@{\,}}{1e-5} & \multicolumn{2}{@{\,}l@{\,}}{1e-7} & \multicolumn{2}{|@{}l@{}}{\#succ}\\\hline
+}
+\providecommand{\ntables}{7}
+\providecommand{\pptablesfooter}{
+\end{tabularx}
+}
+\providecommand{\pptablesheader}{
+\begin{tabularx}{1.0\textwidth}{@{}c@{}|*{7}{@{}r@{}X@{}}|@{}r@{}@{}l@{}}
+$\Delta f_\mathrm{opt}$ & \multicolumn{2}{@{\,}l@{\,}}{1e1} & \multicolumn{2}{@{\,}l@{\,}}{1e0} & \multicolumn{2}{@{\,}l@{\,}}{1e-1} & \multicolumn{2}{@{\,}l@{\,}}{1e-2} & \multicolumn{2}{@{\,}l@{\,}}{1e-3} & \multicolumn{2}{@{\,}l@{\,}}{1e-5} & \multicolumn{2}{@{\,}l@{\,}}{1e-7} & \multicolumn{2}{|@{}l@{}}{\#succ}\\\hline
+}
+\providecommand{\algitables}{\StrLeft{UMAGS3b}{\ntables}}
+\providecommand{\alghtables}{\StrLeft{UMAGS3a}{\ntables}}
+\providecommand{\alggtables}{\StrLeft{UMAGS2}{\ntables}}
+\providecommand{\algftables}{\StrLeft{MAGSr}{\ntables}}
+\providecommand{\algetables}{\StrLeft{VNS}{\ntables}}
+\providecommand{\algdtables}{\StrLeft{Rosenbrock}{\ntables}}
+\providecommand{\algctables}{\StrLeft{RANDOMSEARCH}{\ntables}}
+\providecommand{\algbtables}{\StrLeft{PSO Bounds}{\ntables}}
+\providecommand{\algatables}{\StrLeft{PSO}{\ntables}}
+\providecommand{\algZtables}{\StrLeft{POEMS}{\ntables}}
+\providecommand{\algYtables}{\StrLeft{ONEFIFTH}{\ntables}}
+\providecommand{\algXtables}{\StrLeft{NEWUOA}{\ntables}}
+\providecommand{\algWtables}{\StrLeft{NELDERDOERR}{\ntables}}
+\providecommand{\algVtables}{\StrLeft{NELDER}{\ntables}}
+\providecommand{\algUtables}{\StrLeft{MCS}{\ntables}}
+\providecommand{\algTtables}{\StrLeft{MA-LS-CHAIN}{\ntables}}
+\providecommand{\algStables}{\StrLeft{LSstep}{\ntables}}
+\providecommand{\algRtables}{\StrLeft{LSfminbnd}{\ntables}}
+\providecommand{\algQtables}{\StrLeft{IPOP-SEP-CMA-ES}{\ntables}}
+\providecommand{\algPtables}{\StrLeft{iAMALGAM}{\ntables}}
+\providecommand{\algOtables}{\StrLeft{GLOBAL}{\ntables}}
+\providecommand{\algNtables}{\StrLeft{G3PCX}{\ntables}}
+\providecommand{\algMtables}{\StrLeft{FULLNEWUOA}{\ntables}}
+\providecommand{\algLtables}{\StrLeft{EDA-PSO}{\ntables}}
+\providecommand{\algKtables}{\StrLeft{DIRECT}{\ntables}}
+\providecommand{\algJtables}{\StrLeft{DE-PSO}{\ntables}}
+\providecommand{\algItables}{\StrLeft{DASA}{\ntables}}
+\providecommand{\algHtables}{\StrLeft{CMA-ESPLUSSEL}{\ntables}}
+\providecommand{\algGtables}{\StrLeft{Cauchy-EDA}{\ntables}}
+\providecommand{\algFtables}{\StrLeft{BIPOP-CMA-ES}{\ntables}}
+\providecommand{\algEtables}{\StrLeft{BFGS}{\ntables}}
+\providecommand{\algDtables}{\StrLeft{BAYEDA}{\ntables}}
+\providecommand{\algCtables}{\StrLeft{AMALGAM}{\ntables}}
+\providecommand{\algBtables}{\StrLeft{ALPS}{\ntables}}
+\providecommand{\algAtables}{\StrLeft{AG}{\ntables}}
+\providecommand{\ntables}{7}
+\providecommand{\pptablesfooter}{
+\end{tabularx}
+}
+\providecommand{\pptablesheader}{
+\begin{tabularx}{1.0\textwidth}{@{}c@{}|*{7}{@{}r@{}X@{}}|@{}r@{}@{}l@{}}
+$\Delta f_\mathrm{opt}$ & \multicolumn{2}{@{\,}l@{\,}}{1e1} & \multicolumn{2}{@{\,}l@{\,}}{1e0} & \multicolumn{2}{@{\,}l@{\,}}{1e-1} & \multicolumn{2}{@{\,}l@{\,}}{1e-2} & \multicolumn{2}{@{\,}l@{\,}}{1e-3} & \multicolumn{2}{@{\,}l@{\,}}{1e-5} & \multicolumn{2}{@{\,}l@{\,}}{1e-7} & \multicolumn{2}{|@{}l@{}}{\#succ}\\\hline
+}
+\providecommand{\ntables}{7}
+\providecommand{\pptablesfooter}{
+\end{tabularx}
+}
+\providecommand{\pptablesheader}{
+\begin{tabularx}{1.0\textwidth}{@{}c@{}|*{7}{@{}r@{}X@{}}|@{}r@{}@{}l@{}}
+$\Delta f_\mathrm{opt}$ & \multicolumn{2}{@{\,}l@{\,}}{1e1} & \multicolumn{2}{@{\,}l@{\,}}{1e0} & \multicolumn{2}{@{\,}l@{\,}}{1e-1} & \multicolumn{2}{@{\,}l@{\,}}{1e-2} & \multicolumn{2}{@{\,}l@{\,}}{1e-3} & \multicolumn{2}{@{\,}l@{\,}}{1e-5} & \multicolumn{2}{@{\,}l@{\,}}{1e-7} & \multicolumn{2}{|@{}l@{}}{\#succ}\\\hline
+}
+\providecommand{\ntables}{7}
+\providecommand{\bbobpptablesmanylegend}[1]{%
+        Expected runtime (\ERT\ in number of $f$-evaluations) divided by the respective best \ERT\ measured during BBOB-2009 (when finite) in
+        #1.
+        This \ERT\ ratio and, in braces as dispersion measure, the half difference between
+        10 and 90\%-tile of bootstrapped run lengths appear for each algorithm and 
+        %
+        target, the corresponding reference \ERT\
+        in the first row. The different target \Df-values are shown in the top row.
+        \#succ is the number of trials that reached the (final) target
+        $\fopt + 10^{-8}$.
+        %
+        The median number of conducted function evaluations is additionally given in 
+        \textit{italics}, if the target in the last column was never reached.
+        Entries, succeeded by a star, are statistically significantly better (according to
+        the rank-sum test) when compared to all other algorithms of the table, with
+        $p = 0.05$ or $p = 10^{-k}$ when the number $k$ following the star is larger
+        than 1, with Bonferroni correction by the number of functions (24). A $\uparrow$ signifies the number of trials that were worse than the ERT of the best algorithm from BBOB 2009 shown only when less than 10 percent were worse and the ERT was better.Best results are printed in bold.
+        }
+\providecommand{\algsfolder}{AG_ALPS_AMALG_BAYED_BFGS_BIPOP_Cauch_et_al/}
+\providecommand{\algorithmA}{AG}
+\providecommand{\algorithmB}{ALPS}
+\providecommand{\algorithmC}{AMALGAM}
+\providecommand{\algorithmD}{BAYEDA}
+\providecommand{\algorithmE}{BFGS}
+\providecommand{\algorithmF}{BIPOP-CMA-ES}
+\providecommand{\algorithmG}{CMA-ESPLUSSEL}
+\providecommand{\algorithmH}{Cauchy-EDA}
+\providecommand{\algorithmI}{DASA}
+\providecommand{\algorithmJ}{DE-PSO}
+\providecommand{\algorithmK}{DIRECT}
+\providecommand{\algorithmL}{EDA-PSO}
+\providecommand{\algorithmM}{FULLNEWUOA}
+\providecommand{\algorithmN}{G3PCX}
+\providecommand{\algorithmO}{GLOBAL}
+\providecommand{\algorithmP}{IPOP-SEP-CMA-ES}
+\providecommand{\algorithmQ}{LSfminbnd}
+\providecommand{\algorithmR}{LSstep}
+\providecommand{\algorithmS}{MA-LS-CHAIN}
+\providecommand{\algorithmT}{MAGSr}
+\providecommand{\algorithmU}{MCS}
+\providecommand{\algorithmV}{NELDER}
+\providecommand{\algorithmW}{NELDERDOERR}
+\providecommand{\algorithmX}{NEWUOA}
+\providecommand{\algorithmY}{ONEFIFTH}
+\providecommand{\algorithmZ}{POEMS}
+\providecommand{\algorithma}{PSO}
+\providecommand{\algorithmb}{PSO Bounds}
+\providecommand{\algorithmc}{RANDOMSEARCH}
+\providecommand{\algorithmd}{Rosenbrock}
+\providecommand{\algorithme}{UMAGS2}
+\providecommand{\algorithmf}{UMAGS3a}
+\providecommand{\algorithmg}{UMAGS3b}
+\providecommand{\algorithmh}{VNS}
+\providecommand{\algorithmi}{iAMALGAM}
