@@ -13692,7 +13692,7 @@ z
      <use xlink:href="#DejaVuSans-6d" x="207.625"/>
     </g>
    </g>
-   <g id="text_20">
+   <g id="text_20" style="image-rendering:auto;fill:#ff0000">
     <!-- AGSr -->
     <g transform="translate(386.578944 203.516245)scale(0.14 -0.14)">
      <use xlink:href="#DejaVuSans-41"/>

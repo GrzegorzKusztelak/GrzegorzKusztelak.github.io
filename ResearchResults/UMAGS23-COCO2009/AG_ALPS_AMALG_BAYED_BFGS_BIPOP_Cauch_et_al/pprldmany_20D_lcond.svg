@@ -30873,7 +30873,7 @@ z
      <use xlink:href="#DejaVuSans-53" x="143.212891"/>
     </g>
    </g>
-   <g id="text_43">
+   <g id="text_43" style="image-rendering:auto;fill:#ff0000">
     <!-- MAGSr -->
     <g transform="translate(386.578944 87.326263)scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-4d"/>
@@ -30897,7 +30897,7 @@ z
      <use xlink:href="#DejaVuSans-41" x="488.814453"/>
     </g>
    </g>
-   <g id="text_45">
+   <g id="text_45" style="image-rendering:auto;fill:#ff0000">
     <!-- UMAGS3b -->
     <g transform="translate(386.578944 71.306221)scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-55"/>
@@ -30909,7 +30909,7 @@ z
      <use xlink:href="#DejaVuSans-62" x="430.720703"/>
     </g>
    </g>
-   <g id="text_46">
+   <g id="text_46" style="image-rendering:auto;fill:#ff0000">
     <!-- UMAGS3a -->
     <g transform="translate(386.578944 63.296201)scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-55"/>
@@ -30921,7 +30921,7 @@ z
      <use xlink:href="#DejaVuSans-61" x="430.720703"/>
     </g>
    </g>
-   <g id="text_47">
+   <g id="text_47" style="image-rendering:auto;fill:#ff0000">
     <!-- UMAGS2 -->
     <g transform="translate(386.578944 55.28618)scale(0.09 -0.09)">
      <use xlink:href="#DejaVuSans-55"/>
