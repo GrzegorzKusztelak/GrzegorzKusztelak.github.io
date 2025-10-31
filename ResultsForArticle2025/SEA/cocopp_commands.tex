@@ -5,7 +5,7 @@ Empirical cumulative distribution of simulated (bootstrapped)
              targets $10^{[-8..2]}$ in dimension #1.
 }
 \providecommand{\cocoversion}{{\scriptsize\sffamily{}\color{Gray}Data produced with COCO v2.6.3}}
-\providecommand{\numofalgs}{5}
+\providecommand{\numofalgs}{6}
 \providecommand{\bbobECDFslegend}[1]{
 Bootstrapped empirical cumulative distribution of the number of $f$-evaluations divided by dimension (FEvals/DIM) for $51$ targets with target precision in $10^{[-8..2]}$ for all functions and subgroups in #1-D. As reference algorithm, the best algorithm from BBOB 2009 is shown as light thick line with diamond markers.
 }
@@ -19,6 +19,7 @@ Legend:
 , {\color{Green}$\star$}: \algorithmC
 , {\color{red}+}: \algorithmD
 , {\color{magenta}$\pentagon$}: \algorithmE
+, {\color{brown}$\triangledown$}: \algorithmF
 }
 % define some COCO/dvipsnames colors because
 % ACM style does not allow to use them directly
@@ -39,6 +40,7 @@ Legend:
 \definecolor{CornflowerBlue}{HTML}{6495ED}
 \definecolor{LimeGreen}{HTML}{32CD32}
 
+\providecommand{\ntables}{7}
 \providecommand{\pptablesfooter}{
 \end{tabularx}
 }
@@ -98,9 +100,10 @@ $\Delta f_\mathrm{opt}$ & \multicolumn{2}{@{\,}l@{\,}}{1e1} & \multicolumn{2}{@{
         $p = 0.05$ or $p = 10^{-k}$ when the number $k$ following the star is larger
         than 1, with Bonferroni correction by the number of functions (24). A $\uparrow$ signifies the number of trials that were worse than the ERT of the best algorithm from BBOB 2009 shown only when less than 10 percent were worse and the ERT was better.Best results are printed in bold.
         }
-\providecommand{\algsfolder}{SEAD0_SEAD0_SEAD0_SEAD1_SEAD2/}
+\providecommand{\algsfolder}{SEAD0_SEAD0_SEAD0_SEAD1_SEAD2_SEAD4/}
 \providecommand{\algorithmA}{SEAD02}
 \providecommand{\algorithmB}{SEAD03}
 \providecommand{\algorithmC}{SEAD05}
 \providecommand{\algorithmD}{SEAD10}
 \providecommand{\algorithmE}{SEAD20}
+\providecommand{\algorithmF}{SEAD40}
